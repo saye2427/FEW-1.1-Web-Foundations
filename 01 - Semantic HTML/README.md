@@ -1,6 +1,6 @@
 # Semantic HTML
 
-HTML is the structural foundation for all web applications. 
+HTML is the structural foundation for all web applications.
 
 There are a few rules to writing good HTML.
 
@@ -16,25 +16,25 @@ There are a few rules to writing good HTML.
 ## Initial Exercise
 
 - Think pair share: "what is html" where have you seen it before?
-  - How do you use it? 
-  - What are those tags and what do they mean? 
+  - How do you use it?
+  - What are those tags and what do they mean?
 
-## Overview/TT I 
+## Overview/TT I
 
-- HTML is the structure that underlies the web. 
+- HTML is the structure that underlies the web.
   - The web is built on a highly sophisticated separation of concerns
     - HTML/CSS/JavaScript
   - Every web page is built from HTML
     - HTML defines the DOM
 - Name some HTML tags you know?
-  - List on board 
-  - Q: When and how do you use these tags? 
-- Some tags: 
+  - List on board
+  - Q: When and how do you use these tags?
+- Some tags:
   - p, h1, img, ul + li, div, a
 - Concept: Semantic HTML
   - Pick the tag that best describes its content.
   - Examples
-    - https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Define_terms_with_HTML 
+    - https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Define_terms_with_HTML
 - Vocabulary
   - Tag: `<p>`
   - Element: `<p>Hello World</p>`
@@ -42,16 +42,16 @@ There are a few rules to writing good HTML.
 
 ## In Class Activity I
 
-- I do, we do, you do: Writing HTML tags elements and attributes. 
-  - Example 1,
+- I do, we do, you do: Writing HTML tags elements and attributes.
+  - Example 1, <!--COMPLETED-->
 - I do, We do, You do: Choosing the right tag for the job
-  - Example 2
+  - Example 2 <!--COMPLETED-->
 - Pair up and explore the tag list
   - https://www.w3schools.com/tags/ref_byfunc.asp
 - Write some markup
-  - Example 3
+  - Example 3 <!--COMPLETED-->
 - Complete Challenges solo or in pair
-  - Example 4
+  - Example 4 <!--COMPLETED-->
 - Q&A about tutorials
   - https://github.com/MakeSchool-Tutorials/We-Sell-Shoes
 
@@ -66,6 +66,3 @@ There are a few rules to writing good HTML.
 1. https://css-tricks.com/what-beautiful-html-code-looks-like/
 1. https://developer.mozilla.org/en-US/docs/Web/HTML
 1. https://validator.w3.org
-
-
-
