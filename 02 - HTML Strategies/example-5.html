@@ -35,16 +35,16 @@
 
 <form action="/" method="get">
   <label>Name</label>
-  <input name="name" placeholder="Your name here">
+  <input name="name" type="text" autocomplete="off" placeholder="Your name here">
 
   <label>Email</label>
-  <input name="email" placeholder="email@domain.com">
+  <input name="email" type="email" placeholder="email@domain.com">
 
   <label>Pet Count</label>
-  <input name="pets" placeholder="Enter number of pets">
+  <input name="pets" type= "number" placeholder="Enter number of pets">
 
   <label>Birthday</label>
-  <input name="birthday" placeholder="mm/dd/yyyy">
+  <input name="birthday" type="date" placeholder="dd/mm/yyyy">
 
   <label>Prefix</label>
   <select name="prefix">
@@ -69,13 +69,13 @@
   <label for="radio-public">Public Bio</label>
 
   <label>Short Bio</label>
-  <textarea name="bio" placeholder="Enter a short bio about yourself here."></textarea>
+  <textarea name="bio" type="textarea" placeholder="Enter a short bio about yourself here."></textarea>
 
   <label>Upload Profile Image</label>
-  <input name="image" type="file">
+  <input name="image" type="file" accept="image/x-png,image/jpeg">
 
   <label>Self Destruct</label>
-  <input name="self-destruct" type="checkbox">
+  <input name="self-destruct" type="checkbox" disabled>
 
   <button type="submit">Submit</button>
 </form>
