@@ -34,10 +34,11 @@
   /* Your styles here */
   body {
     /* These rules set the base font and size for all child elements */
-    font-family: Helvetica;
-    font-size: 18px;
+    font-family: Helvetica; /* Can list a bunch so if the browser doesnt have one, the next will be used instead;
+                                Built-in fonts exist, but you can also link to others. */
+    font-size: 18px; /* Everything with body tag will be 18 pixels, except headings, which are in "ems" */
 
-    color: #555;
+    color: #555; /* Sets color OF FONT */
   }
   h1 {
     /* Using ems this the size is based on the base font size */
