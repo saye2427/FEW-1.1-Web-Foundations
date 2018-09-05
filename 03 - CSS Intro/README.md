@@ -64,7 +64,7 @@ Using simple rules you can make your work look worlds better. Use font styles to
 #After Class
 -Complete the tutorial
     -Code review your tutorial project with another student
--Complete CSS Diner
+-Complete CSS Diner✓
 
 #Additional Resources
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
