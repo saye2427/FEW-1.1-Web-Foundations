@@ -1,7 +1,9 @@
 <!--
-
  -->
- <h1>Burger <br> King</h1>
+ <div class="big-container">
+ <div class="container">
+     <h1>Burger <br> King</h1>
+ </div>
 
  <!doctype html>
  <html>
@@ -13,17 +15,20 @@
   <p>
     <label>Name</label>
     <input name="name" type="text" placeholder="Your name">
+
+    <label>Email</label>
+    <input name="email" type="email" placeholder="email@domain.com">
   </p>
 
-  <label>Email</label>
-  <input name="email" type="email">
+  <p>
+  <label>Birthday</label>
+  <input name="birthday" type="date" placeholder="MM/DD/YYYY">
 
   <label>Pet Count</label>
-  <input name="pets">
+  <input name="pets" type="number" placeholder="How many pets?">
+</p>
 
-  <label>Birthday</label>
-  <input name="birthday">
-
+<p>
   <select name="prefix">
     <option>Mr</option>
     <option>Mrs</option>
@@ -38,24 +43,55 @@
   <input id="radio-admin" type="radio" name="role" value="Admin"/>
   <label for="radio-admin">Admin</label>
 
-  <input type="radio" name="role" value="Editor" />
-  <label>Editor</label>
+  <input id="radio-editor" type="radio" name="role" value="Editor" />
+  <label for="radio-editor">Editor</label>
 
-  <input type="radio" name="role" value="Contributor" />
-  <label>Contributor</label>
+  <input id="radio-contributor" type="radio" name="role" value="Contributor" />
+  <label for="radio-contributor">Contributor</label>
+</p>
 
-  <input type="checkbox" name="public">
-  <label>Public Bio</label>
+<p>
+  <input id="radio-bio" type="checkbox" name="public" checked>
+  <label for="radio-bio">Public Bio</label>
 
   <textarea name="bio"></textarea>
+</p>
 
+<p>
   <label>Upload Image</label>
   <input name="image" type="file">
 
   <label>Self Destruct</label>
-  <input name="self-destruct" type="check">
+  <input name="self-destruct" type="checkbox" disabled>
+</p>
 
+<p>
   <button type="submit">Submit</button>
+</p>
+
+</div>
+
+<style>
+    .big-container {
+        width: 600px;
+        margin: auto;
+        border: 5px solid blue;
+    }
+
+    .container {
+        width: 500px;
+        margin: auto;
+        border: 3px solid red;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+</style>
 </form>
 </body>
  </html>
