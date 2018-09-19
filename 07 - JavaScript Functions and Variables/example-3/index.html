@@ -2,30 +2,25 @@
 <html>
   <head>
     <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
-    <h1 id="title"></h1>
-    
-    <button id="button-1">Run</button>
-    <button id="button-2">Pause</button>
-    
+    <div class="example-1">
+      <h1 id="title"></h1>
+      <button id="button-1">Run</button>
+      <button id="button-2">Pause</button>
+    </div>
+
+    <div class="example-2">
+      <input id="input-num" type="number" placeholder="number">
+      <input id="input-pow" type="number" placeholder="other number">
+      <div class="num-control">
+        <button id="numulator" class="numulator">Numulate</button>
+        <span id="num-display">0</span>
+      </div>
+    </div>
+
     <!-- Scripts -->
-    <script>
-      // These scripts run after everything above has been loaded.
-      const button_1 = document.getElementById('button-1');
-      const button_2 = document.getElementById('button-2');
-      const titleElement = document.getElementById('title');
-      
-      button_1.onclick = (e) => {
-        titleElement.style.color = '#22dd11';
-        titleElement.innerHTML = 'Run!';
-      };
-      
-      button_2.onclick = (e) => {
-        titleElement.style.color = '#dd2211';
-        titleElement.innerHTML = 'Pause!';
-      }
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
