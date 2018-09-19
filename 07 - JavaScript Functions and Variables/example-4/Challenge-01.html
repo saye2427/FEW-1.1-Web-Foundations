@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+    </head>
+
+    <body>
+        <div class="big-container">
+            <p>
+                <div class="container" id="bill">
+                    <label for="amount">Bill</label>
+                    <input id= "amount" type="number" value="0.00">
+                </div>
+            </p>
+
+            <p>
+                <div class="container" id="tip">
+                    <label for="percent">Tip %</label>
+                    <input id="percent" type="number" value="15">
+                </div>
+            </p>
+
+            <p>
+                <button id="calculate">Calculate</button>
+            </p>
+
+            <div class="tip-total">
+                <p>
+                    <span>Tip:</span>
+                    <span id="tip">0.00</span>
+                </p>
+            </div>
+
+            <div class="total">
+                <p>
+                    <span>Total:</span>
+                    <span id="total">0.00</span>
+                </p>
+            </div>
+        </div>
+    </body>
+
+<style>
+    .big-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        border: 1px solid black;
+        width: 30%;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: flex-start;
+
+        width: 90%;
+    }
+
+    .tip-total {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .total {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    label {
+
+    }
+
+    input {
+        border-radius: 7%;
+        height: 60px;
+        width: 95%;
+
+        font-size: 50px;
+        text-align: center;
+    }
+
+    button {
+        border-radius: 7%;
+        width: 235px;
+        height: 45px;
+
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 30px;
+    }
+
+</style>
+
+<script src="main-01.js"></script>
+
+</html>
